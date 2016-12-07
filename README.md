@@ -7,3 +7,8 @@ cd ..; boot dev
 #another shell
 cd app; react-native run-ios    #run-android
 ```
+
+# More..
+
+- <https://github.com/mjmeintjes/boot-react-native/>
+- <https://github.com/drapanjanas/re-natal/>
