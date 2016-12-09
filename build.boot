@@ -12,7 +12,7 @@
                  [org.clojure/tools.nrepl        "0.2.12"          :scope  "test"]
                  [org.clojure/clojure            "1.8.0"]
                  [org.clojure/clojurescript      "1.8.51"]
-		 [rum "0.9.1" :exclusions [cljsjs/react cljsjs/react-dom sablono]]
+		 [rum "0.9.1" :exclusions [cljsjs/react-dom sablono]]
                  ]
  )
 
@@ -26,7 +26,7 @@
  '[mattsum.boot-react-native    :as     rn :refer [patch-rn]]
  )
 
-(task-options! patch-rn {:app-dir "app"})
+(task-options! patch-rn {:app-dir "."})
 
 (deftask build
   []

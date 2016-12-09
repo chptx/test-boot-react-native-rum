@@ -45,4 +45,5 @@
 
 (defn on-js-reload
   []
-  (println "on-js-reload. state" ))
+  (println "on-js-reload. " )
+  (mount-app))
